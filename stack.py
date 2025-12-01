@@ -29,11 +29,3 @@ class Stack:
 
     def __str__(self):
         return str(self._items)
-
-s = Stack(None)
-s.push(1)
-s.push(2)
-s.push(5)
-print(s)
-print(s.peek())
-print(len(s))

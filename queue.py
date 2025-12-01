@@ -29,14 +29,3 @@ class Queue:
 
     def __str__(self):
         return str(self.items)
-
-q = Queue()
-q.enqueue(1)
-q.enqueue(2)
-q.enqueue(5)
-print(q)
-print(q.peek())
-print(len(q))
-q.dequeue()
-print(q)
-print(len(q))
